@@ -43,7 +43,7 @@ app.post("/", function(req,res){
         to: email,
         subject: 'Thank You ...Amazing Gossips are just on the way',
         text: `Hii ${fname}That was easy!`,
-        attachment:''
+        
       };
       
       transporter.sendMail(mailOptions, function(error, info){
