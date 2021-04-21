@@ -12,7 +12,7 @@ app.get("/",function(req,res){
     res.sendFile(__dirname+"/signup.html")
 })
 app.post("/", function(req,res){
-    let pass='jh08d8610';
+    let pass='';
     let fname=req.body.fname;
     let lname=req.body.lname;
     let email=req.body.email;
