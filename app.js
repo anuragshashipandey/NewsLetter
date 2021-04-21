@@ -12,7 +12,7 @@ app.get("/",function(req,res){
     res.sendFile(__dirname+"/signup.html")
 })
 app.post("/", function(req,res){
-    let pass="";
+    let pass='jh08d8610';
     let fname=req.body.fname;
     let lname=req.body.lname;
     let email=req.body.email;
@@ -42,8 +42,7 @@ app.post("/", function(req,res){
         from: 'newsletteriitkgp@gmail.com',
         to: email,
         subject: 'Thank You ...Amazing Gossips are just on the way',
-        text: `Hii ${fname}That was easy!`,
-        
+        text: `Hii ${fname}Thanks for subscribing to My NewsLetter!`,
       };
       
       transporter.sendMail(mailOptions, function(error, info){
