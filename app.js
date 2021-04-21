@@ -41,7 +41,7 @@ app.post("/", function(req,res){
       let mailOptions = {
         from: 'newsletteriitkgp@gmail.com',
         to: email,
-        subject: 'Thank You ...Amazing Gossips are just on the way',
+        subject: 'Thank You ...Amazing Content are just on the way',
         text: `Hii ${fname} Thanks for subscribing to My NewsLetter!
         Here are some less Known intersting Facts
         1.The junction joining the 2.2 with the PAN loop is actually known as "Frust Corner".
