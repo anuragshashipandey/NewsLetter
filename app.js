@@ -43,7 +43,7 @@ app.post("/", function(req,res){
         to: email,
         subject: 'Thank You ...Amazing Content are just on the way',
         text: `Hii ${fname} Thanks for subscribing to My NewsLetter!
-        Here are some less Known intersting Facts
+        Here are some less Known Intersting Facts. Hope you will enjoy XD....
         1.The junction joining the 2.2 with the PAN loop is actually known as "Frust Corner".
        
         2.There once existed an underground tunnel between PAN loop and the Prison cells near the Nehru Museum.
